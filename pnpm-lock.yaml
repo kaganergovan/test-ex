@@ -88,8 +88,8 @@ importers:
         version: 3.4.4
     devDependencies:
       '@types/node':
-        specifier: 20.14.8
-        version: 20.14.8
+        specifier: 20.14.10
+        version: 20.14.10
       '@types/react':
         specifier: 18.3.3
         version: 18.3.3
@@ -1311,8 +1311,8 @@ packages:
   '@types/lodash@4.17.5':
     resolution: {integrity: sha512-MBIOHVZqVqgfro1euRDWX7OO0fBVUUMrN6Pwm8LQsz8cWhEpihlvR70ENj3f40j58TNxZaWv2ndSkInykNBBJw==}
 
-  '@types/node@20.14.8':
-    resolution: {integrity: sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==}
+  '@types/node@20.14.10':
+    resolution: {integrity: sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==}
 
   '@types/phoenix@1.6.4':
     resolution: {integrity: sha512-B34A7uot1Cv0XtaHRYDATltAdKx0BvVKNgYNqE4WjtPUa4VQJM7kxeXcVKaH+KS+kCmZ+6w+QaUdcljiheiBJA==}
@@ -4366,7 +4366,7 @@ snapshots:
 
   '@types/lodash@4.17.5': {}
 
-  '@types/node@20.14.8':
+  '@types/node@20.14.10':
     dependencies:
       undici-types: 5.26.5
 
@@ -4385,7 +4385,7 @@ snapshots:
 
   '@types/ws@8.5.10':
     dependencies:
-      '@types/node': 20.14.8
+      '@types/node': 20.14.10
 
   ansi-regex@5.0.1: {}
 
