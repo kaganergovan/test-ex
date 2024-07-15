@@ -12,8 +12,8 @@ importers:
         specifier: ^2.0.33
         version: 2.0.33(@nextui-org/system@2.2.2(@nextui-org/theme@2.2.4(tailwindcss@3.4.4))(framer-motion@11.2.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@nextui-org/theme@2.2.4(tailwindcss@3.4.4))(framer-motion@11.2.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@nextui-org/code':
-        specifier: ^2.0.28
-        version: 2.0.28(@nextui-org/theme@2.2.4(tailwindcss@3.4.4))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^2.0.29
+        version: 2.0.29(@nextui-org/theme@2.2.4(tailwindcss@3.4.4))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@nextui-org/input':
         specifier: ^2.2.1
         version: 2.2.1(@nextui-org/system@2.2.2(@nextui-org/theme@2.2.4(tailwindcss@3.4.4))(framer-motion@11.2.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@nextui-org/theme@2.2.4(tailwindcss@3.4.4))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -305,6 +305,13 @@ packages:
 
   '@nextui-org/code@2.0.28':
     resolution: {integrity: sha512-gSiTuhhNrud18NdfC5DGVLlI8vEFhYxxCwPA8bTMtlziZ0aD4NKPKx8wM+LhksI/ODhvOLHeOzPsY+/IcFnIMA==}
+    peerDependencies:
+      '@nextui-org/theme': '>=2.1.0'
+      react: '>=18'
+      react-dom: '>=18'
+
+  '@nextui-org/code@2.0.29':
+    resolution: {integrity: sha512-+aevUjVJxSkJ4Un/O3rBdI1NfHikatzDK6iD6nqWDCDR/I+9a5m+s3N8yuNt/Mt8jGKg0KEklPh3deYfCVCXdg==}
     peerDependencies:
       '@nextui-org/theme': '>=2.1.0'
       react: '>=18'
@@ -2386,21 +2393,21 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@nextui-org/code@2.0.28(@nextui-org/theme@2.2.4(tailwindcss@3.4.4))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@nextui-org/react-utils': 2.0.13(react@18.3.1)
-      '@nextui-org/shared-utils': 2.0.5
-      '@nextui-org/system-rsc': 2.1.2(@nextui-org/theme@2.2.4(tailwindcss@3.4.4))(react@18.3.1)
-      '@nextui-org/theme': 2.2.4(tailwindcss@3.4.4)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-
   '@nextui-org/code@2.0.28(@nextui-org/theme@2.2.5(tailwindcss@3.4.4))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@nextui-org/react-utils': 2.0.13(react@18.3.1)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system-rsc': 2.1.2(@nextui-org/theme@2.2.5(tailwindcss@3.4.4))(react@18.3.1)
       '@nextui-org/theme': 2.2.5(tailwindcss@3.4.4)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
+  '@nextui-org/code@2.0.29(@nextui-org/theme@2.2.4(tailwindcss@3.4.4))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@nextui-org/react-utils': 2.0.14(react@18.3.1)
+      '@nextui-org/shared-utils': 2.0.5
+      '@nextui-org/system-rsc': 2.1.2(@nextui-org/theme@2.2.4(tailwindcss@3.4.4))(react@18.3.1)
+      '@nextui-org/theme': 2.2.4(tailwindcss@3.4.4)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
